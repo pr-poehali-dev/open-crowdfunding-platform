@@ -154,10 +154,10 @@ const Index = () => {
               </span>
             </div>
             
-            <h2 className="text-5xl md:text-7xl font-heading font-bold mb-6 leading-tight">
-              Превращайте научные{' '}
-              <span className="text-gradient">идеи</span>{' '}
-              в реальность
+            <h2 className="text-4xl md:text-5xl font-heading font-light mb-6 leading-tight">
+              От объединения{' '}
+              <span className="text-gradient">к</span>{' '}
+              созиданию
             </h2>
             
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">

@@ -104,9 +104,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 gradient-purple rounded-lg flex items-center justify-center">
-                <Icon name="Rocket" size={24} className="text-white" />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/d40b7356-9b97-4ba7-9c47-614189b1f12a.png" 
+                alt="СОНРИЯ" 
+                className="h-10 w-auto"
+              />
               <div>
                 <h1 className="text-2xl font-heading font-bold text-gradient">СОНРИЯ</h1>
                 <p className="text-xs text-muted-foreground">Студенческие инновации</p>
@@ -392,9 +394,11 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 gradient-purple rounded-lg flex items-center justify-center">
-                  <Icon name="Rocket" size={18} className="text-white" />
-                </div>
+                <img 
+                  src="https://cdn.poehali.dev/files/d40b7356-9b97-4ba7-9c47-614189b1f12a.png" 
+                  alt="СОНРИЯ" 
+                  className="h-8 w-auto"
+                />
                 <span className="font-heading font-bold text-xl text-gradient">СОНРИЯ</span>
               </div>
               <p className="text-sm text-muted-foreground">

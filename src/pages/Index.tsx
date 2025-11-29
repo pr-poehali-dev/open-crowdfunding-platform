@@ -147,25 +147,24 @@ const Index = () => {
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center animate-fade-in">
+          <div className="max-w-4xl mx-auto animate-fade-in">
             <div className="inline-block px-4 py-2 glass rounded-full mb-6">
               <span className="text-sm font-semibold text-gradient">
                 🚀 Платформа для студенческих инноваций
               </span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl font-heading font-light mb-6 leading-tight">
-              От объединения{' '}
-              <span className="text-gradient">к</span>{' '}
-              созиданию
+            <h2 className="text-4xl md:text-5xl font-heading font-light mb-6 leading-tight text-left">
+              От объединения<br />
+              к созиданию
             </h2>
             
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground mb-8 max-w-2xl text-left">
               Первая краундфандинговая платформа для студентов и учащихся Ярославской области. 
               Получите финансирование для своих научных разработок.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <Button size="lg" className="gradient-purple text-white font-semibold text-lg px-8 py-6">
                 <Icon name="Rocket" size={20} className="mr-2" />
                 Запустить проект

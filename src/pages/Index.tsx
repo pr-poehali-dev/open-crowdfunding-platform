@@ -315,45 +315,101 @@ const Index = () => {
 
       <section id="about" className="py-20 bg-card/30">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <Card className="glass border-border overflow-hidden">
-              <div className="grid md:grid-cols-2 gap-8">
-                <div className="p-8 md:p-12">
-                  <h3 className="text-3xl font-heading font-bold mb-6">
-                    О платформе <span className="text-gradient">СОНРИЯ</span>
-                  </h3>
-                  
-                  <div className="space-y-4 text-muted-foreground">
-                    <p>
-                      <span className="font-semibold text-foreground">СОНРИЯ</span> — Студенческое Общество Научных Разработок и Инноваций Ярославии.
-                    </p>
-                    <p>
-                      Мы создали первую в регионе краудфандинговую платформу для поддержки студенческих научных проектов и инновационных разработок.
-                    </p>
-                    <p>
-                      Наша миссия — помочь талантливым студентам и учащимся получить финансирование для реализации перспективных идей, которые изменят будущее науки и технологий.
-                    </p>
-                  </div>
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h3 className="text-4xl font-heading font-bold mb-4">
+                Ключевые цели <span className="text-gradient">студенческого общества</span>
+              </h3>
+              <p className="text-muted-foreground text-lg">
+                <span className="font-semibold text-foreground">СОНРИЯ</span> — Студенческое Общество Научных Разработок и Инноваций Ярославии
+              </p>
+            </div>
 
-                  <Button size="lg" className="gradient-purple text-white font-semibold mt-8">
-                    <Icon name="Mail" size={20} className="mr-2" />
-                    Связаться с нами
-                  </Button>
-                </div>
-
-                <div className="relative bg-gradient-to-br from-purple-500/20 to-pink-500/20 p-12 flex items-center justify-center">
-                  <div className="text-center space-y-6">
-                    <div className="w-32 h-32 gradient-purple rounded-3xl flex items-center justify-center mx-auto animate-pulse">
-                      <Icon name="Lightbulb" size={64} className="text-white" />
-                    </div>
-                    <div className="space-y-2">
-                      <p className="text-2xl font-heading font-bold">2000+</p>
-                      <p className="text-sm text-muted-foreground">студентов доверяют нам</p>
-                    </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <Card className="glass border-border hover:scale-105 transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 gradient-purple rounded-lg flex items-center justify-center mb-3">
+                    <Icon name="DollarSign" size={24} className="text-white" />
                   </div>
-                </div>
-              </div>
-            </Card>
+                  <CardTitle className="text-xl font-heading">Финансовая платформа</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Создание эффективной площадки для привлечения финансовых ресурсов на реализацию студенческих и образовательных инициатив с использованием современных технологий краудфандинга.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="glass border-border hover:scale-105 transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 gradient-blue rounded-lg flex items-center justify-center mb-3">
+                    <Icon name="Users" size={24} className="text-white" />
+                  </div>
+                  <CardTitle className="text-xl font-heading">Прозрачное управление</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Обеспечение прозрачного, коллективного и добровольного управления проектами в рамках общества с применением демократических принципов принятия решений.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="glass border-border hover:scale-105 transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 gradient-orange rounded-lg flex items-center justify-center mb-3">
+                    <Icon name="TrendingUp" size={24} className="text-white" />
+                  </div>
+                  <CardTitle className="text-xl font-heading">Развитие компетенций</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Формирование навыков проектного менеджмента, финансирования и сотрудничества среди студентов через практическую работу над реальными проектами.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="glass border-border hover:scale-105 transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-teal-500 rounded-lg flex items-center justify-center mb-3">
+                    <Icon name="MessageCircle" size={24} className="text-white" />
+                  </div>
+                  <CardTitle className="text-xl font-heading">Активное сообщество</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Формирование динамичного сообщества, способствующего развитию социальной, образовательной и предпринимательской инициативы среди молодёжи региона.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="glass border-border hover:scale-105 transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg flex items-center justify-center mb-3">
+                    <Icon name="Sparkles" size={24} className="text-white" />
+                  </div>
+                  <CardTitle className="text-xl font-heading">Поддержка инноваций</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Содействие творческим и инновационным идеям студентов с особым фокусом на социальную и образовательную значимость проектов для общества.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="glass border-border hover:scale-105 transition-all">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg flex items-center justify-center mb-3">
+                    <Icon name="Shield" size={24} className="text-white" />
+                  </div>
+                  <CardTitle className="text-xl font-heading">Ответственное финансирование</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Обеспечение ответственного и целевого использования привлечённых средств согласно установленным правилам и процедурам общества.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
